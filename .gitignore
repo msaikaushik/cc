@@ -1,0 +1,38 @@
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+
+# Build directories
+build/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Object files and binaries
+*.o
+*.obj
+*.exe
+*.out
+
+# Temporary and backup files
+*.log
+*.bak
+*.swp
+
+# Generated CMake files
+*.cmake
+
+# Test and coverage files
+*.gcda
+*.gcno
