@@ -18,7 +18,16 @@ int main(int argc, char *argv[]) {
 
 		file.seekg(0, ios::end);
 		int fileSize = file.tellg();
-		cout<<fileSize<<endl;
+		cout<<fileSize<<" "<<fileName<<endl;
+		return 0;
+	} else if (arg == "-l") {
+		int count = 0;	
+		string line;
+		ifstream file (fileName);
+		while (getline(file, line)) {
+			count++;
+		}
+		cout<<count<<" "<<fileName<<endl;
 		return 0;
 	}
 	cout<<"Invalid Arg"<<endl;
